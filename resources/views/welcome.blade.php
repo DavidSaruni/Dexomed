@@ -1834,7 +1834,7 @@
 
                                 <div class="bg-white dark:bg-dexomed-800 rounded-xl p-8 shadow-md">
                                     <h4 class="text-xl font-bold mb-6">Send us a Message</h4>
-                                    <form action="{{ route('contact.send') }}" method="POST" class="space-y-4">
+                                    <form action="" method="POST" class="space-y-4">
     @csrf
     <input type="text" name="name" placeholder="Enter your full name" class="contact-form-input" required>
     <input type="email" name="email" placeholder="Enter your email address" class="contact-form-input" required>
